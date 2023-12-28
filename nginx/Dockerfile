@@ -3,7 +3,7 @@
 # Dockerfile Maintainer
 MAINTAINER Ido N
 FROM nginx:alpine
-COPY index.html /usr/share/nginx/html/index.html
+COPY *.html /usr/share/nginx/html/
 ## Copy a new configuration file setting listen port to 8080
 COPY ./default.conf /etc/nginx/conf.d/
 EXPOSE 8080
