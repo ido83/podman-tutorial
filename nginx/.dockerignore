@@ -1,0 +1,13 @@
+.git
+.env
+.aws
+Dockerfile
+*.cover
+*.log
+*cache*
+  
+# Ignore md files
+*.md
+
+  
+  
